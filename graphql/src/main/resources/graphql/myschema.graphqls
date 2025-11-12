@@ -1,0 +1,14 @@
+type Query {
+    users : [User]
+}
+
+type User {
+    id: Int
+    name: String
+    profile : Profile
+}
+
+type Profile {
+    id: Int
+    linkedin: String
+}
